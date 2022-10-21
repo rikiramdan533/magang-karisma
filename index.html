@@ -5,27 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MULAI</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <nav>
-        <div class="wraper">
-            <div class="logo"><a href="">MULAI.DEV</a></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="home">HOME</a></li>
-                    <li><a href="topik">TOPIK</a></li>
-                    <li><a href="" class="tmbl-biru">MASUK</a></li>
-                    <li><a href="" class="tmbl-biru">DAFTAR</a></li>
+    <nav class="navbar navbar-expand-lg bg-light"> <!--Untuk Tampilan Menu Navbar-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MULAI.DEV</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="topik.html">Topik</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reference
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-            </div>
+              </li>
+              </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </nav>   
-    <p>UPGRADE KEMAMPUAN ANDA KETINGKAT EXPERT</p><br>
-    <p>UNTUK MENJANGKAU LEBIH LUAS DUNIA KERJA DI BIDANG IT</p>
-    <article>Belajar pemrograman bersama mulai.dev untuk meningkatkan kemampuan programmer anda melalui pelatihan yang kami sediakan.</article>
+      </nav>
+      <div> <!--Tulisan Di Home-->
+          <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=826&t=st=1666333358~exp=1666333958~hmac=d2e1485392df3d4113c8f43d46de37ec171cde7e2103a41a148a5b481905e87b" alt="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=826&t=st=1666333358~exp=1666333958~hmac=d2e1485392df3d4113c8f43d46de37ec171cde7e2103a41a148a5b481905e87b">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, esse!</h3>
+          <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse mollitia quisquam a ipsum quos eius possimus magni, expedita, blanditiis ab porro saepe ea architecto reprehenderit voluptatem atque tenetur, amet repellendus!</h6>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </div>
+        <br><br><br><br><br>
 
-    <p>Baru Ditambahkan</p>
-    <P>Baca Artikel</P>
-</body>
+        <div> <!--Untuk Cards Materi-->
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                 <img src="Doktopik/PHP1.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 1</text>
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"> <a href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3" target="_blank">View </a></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+               <img src="Doktopik/PHP2.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 2</text>
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"> <a href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3" target="_blank">View </a></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Doktopik/PHP3.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 3</text>
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                       <button type="button" class="btn btn-sm btn-outline-secondary"> <a href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3" target="_blank">View </a></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+         </div> 
+            </div>
+          </div></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="class" style="border: 1px silver; background-color: whitesmoke;"> <!--Untuk Tampilan Footer-->
+
+          <div style="display: inline-block; margin: 100px; ">
+            <ul style="list-style-type: none;">
+              <h5> READY TO BINGE</h5>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Laravel 8 Dari awal</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Tailwind</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Tes Driven Laravel</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Reac JS</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Laravel 8 Dari awal</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Tailwind</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Tes Driven Laravel</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Reac JS</li>
+            </ul>
+          </div>
+          
+          <div style="display: inline-block;  margin-right: 100px;">
+            <ul style="list-style-type: none;">
+              <h5> EKSPLORASI</h5>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Jalur</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Seri</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Topik</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Ebook</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Premium</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Seri Berbayar</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Popular</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Tranding</li>
+            </ul>
+          </div>
+          
+          <div style="display: inline-block;  margin-right: 100px;">
+            <ul style="list-style-type: none;">
+              <h5> SOSIAL</h5>
+              <li style="margin-top: 10px; margin-bottom: 10px;">GitHub</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Facebook</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Twitter</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Instagram</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Telegram</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Youtube</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Discord</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">..</li>
+            </ul>
+          </div>
+          
+          <div style=" display: inline-block; margin-right: 100px;">
+            <ul style="list-style-type: none; ;">
+              <h5> Tambahan</h5>
+              <li style="margin-top: 10px; margin-bottom: 10px;">FAQ</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Blog</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Harga</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Testimonial</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Kebijakan dan privasi</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Iklan</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Saweria</li>
+              <li style="margin-top: 10px; margin-bottom: 10px;">Syarat&Ketentuan</li>
+            </ul>
+          </div>
+          
+
+        <script src="js/bootstrap.bundle.min.js" ></script>
+    </body>
 </html>
